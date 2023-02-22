@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B40CC399298CB7AF0071336F /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40CC398298CB7AF0071336F /* ScrumTimer.swift */; };
+		B4183107298DCFBF00ED27AB /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = B4183106298DCFBF00ED27AB /* ding.wav */; };
+		B4183109298DE3B800ED27AB /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4183108298DE3B800ED27AB /* History.swift */; };
+		B418310B298DECD300ED27AB /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418310A298DECD300ED27AB /* ScrumStore.swift */; };
+		B41FDE2A298A1943000B1E64 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41FDE29298A1943000B1E64 /* ScrumProgressViewStyle.swift */; };
+		B4235EE32995F98800014336 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4235EE22995F98800014336 /* MeetingTimerView.swift */; };
+		B4235EE52996003000014336 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4235EE42996003000014336 /* SpeakerArc.swift */; };
+		B45BF08F298DCA73001A48DE /* AVPlayer+Djing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45BF08E298DCA73001A48DE /* AVPlayer+Djing.swift */; };
+		B463C9C929989DAD001AFE1D /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463C9C829989DAD001AFE1D /* SpeechRecognizer.swift */; };
+		B463C9CB2998A28D001AFE1D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463C9CA2998A28D001AFE1D /* HistoryView.swift */; };
+		B477CB10298CC69300276F1A /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B477CB0F298CC69300276F1A /* MeetingFooterView.swift */; };
+		B484374C2986F36E00F961D4 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B484374B2986F36E00F961D4 /* ThemeView.swift */; };
+		B484374E2986FB1900F961D4 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B484374D2986FB1900F961D4 /* ThemePicker.swift */; };
+		B49351FC2999814F00525F17 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49351FB2999814F00525F17 /* SwiftUIView.swift */; };
+		B4A72EC5298605AA00882226 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A72EC4298605AA00882226 /* DailyScrum.swift */; };
+		B4A72EC72986092600882226 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A72EC62986092600882226 /* CardView.swift */; };
+		B4A72EC929860F2C00882226 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A72EC829860F2C00882226 /* TrailingIconLabelStyle.swift */; };
+		B4A72ECB298612CB00882226 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A72ECA298612CB00882226 /* ScrumsView.swift */; };
+		B4A72ECD29862ACB00882226 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A72ECC29862ACB00882226 /* DetailView.swift */; };
+		B4A72ECF29863FC200882226 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A72ECE29863FC200882226 /* DetailEditView.swift */; };
+		B4A9A7DC2985D883003D9E9C /* MeetUpApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A9A7DB2985D883003D9E9C /* MeetUpApp.swift */; };
+		B4A9A7DE2985D883003D9E9C /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A9A7DD2985D883003D9E9C /* MeetingView.swift */; };
+		B4A9A7E02985D886003D9E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A9A7DF2985D886003D9E9C /* Assets.xcassets */; };
+		B4A9A7E32985D886003D9E9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A9A7E22985D886003D9E9C /* Preview Assets.xcassets */; };
+		B4A9A7EB2985F374003D9E9C /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A9A7EA2985F374003D9E9C /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B40CC398298CB7AF0071336F /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		B4183106298DCFBF00ED27AB /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		B4183108298DE3B800ED27AB /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		B418310A298DECD300ED27AB /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
+		B41FDE29298A1943000B1E64 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		B4235EE22995F98800014336 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		B4235EE42996003000014336 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
+		B45BF08E298DCA73001A48DE /* AVPlayer+Djing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Djing.swift"; sourceTree = "<group>"; };
+		B463C9C829989DAD001AFE1D /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		B463C9CA2998A28D001AFE1D /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		B477CB0F298CC69300276F1A /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		B484374B2986F36E00F961D4 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
+		B484374D2986FB1900F961D4 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		B49351FB2999814F00525F17 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B4A72EC4298605AA00882226 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		B4A72EC62986092600882226 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B4A72EC829860F2C00882226 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		B4A72ECA298612CB00882226 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		B4A72ECC29862ACB00882226 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B4A72ECE29863FC200882226 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		B4A9A7D82985D883003D9E9C /* MeetUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4A9A7DB2985D883003D9E9C /* MeetUpApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetUpApp.swift; sourceTree = "<group>"; };
+		B4A9A7DD2985D883003D9E9C /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		B4A9A7DF2985D886003D9E9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4A9A7E22985D886003D9E9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4A9A7EA2985F374003D9E9C /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4A9A7D52985D883003D9E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4183105298DCE8100ED27AB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B4183106298DCFBF00ED27AB /* ding.wav */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		B4A9A7CF2985D882003D9E9C = {
+			isa = PBXGroup;
+			children = (
+				B4A9A7DA2985D883003D9E9C /* MeetUp */,
+				B4A9A7D92985D883003D9E9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4A9A7D92985D883003D9E9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4A9A7D82985D883003D9E9C /* MeetUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4A9A7DA2985D883003D9E9C /* MeetUp */ = {
+			isa = PBXGroup;
+			children = (
+				B4A9A7E92985F348003D9E9C /* Models */,
+				B4A9A7DB2985D883003D9E9C /* MeetUpApp.swift */,
+				B4A72ECA298612CB00882226 /* ScrumsView.swift */,
+				B49351FB2999814F00525F17 /* SwiftUIView.swift */,
+				B4A72ECC29862ACB00882226 /* DetailView.swift */,
+				B4A72EC62986092600882226 /* CardView.swift */,
+				B4235EE42996003000014336 /* SpeakerArc.swift */,
+				B4A72ECE29863FC200882226 /* DetailEditView.swift */,
+				B4A9A7DD2985D883003D9E9C /* MeetingView.swift */,
+				B41FDE29298A1943000B1E64 /* ScrumProgressViewStyle.swift */,
+				B477CB0F298CC69300276F1A /* MeetingFooterView.swift */,
+				B4235EE22995F98800014336 /* MeetingTimerView.swift */,
+				B484374D2986FB1900F961D4 /* ThemePicker.swift */,
+				B4A72EC829860F2C00882226 /* TrailingIconLabelStyle.swift */,
+				B484374B2986F36E00F961D4 /* ThemeView.swift */,
+				B463C9CA2998A28D001AFE1D /* HistoryView.swift */,
+				B4A9A7DF2985D886003D9E9C /* Assets.xcassets */,
+				B4183105298DCE8100ED27AB /* Resource */,
+				B4A9A7E12985D886003D9E9C /* Preview Content */,
+			);
+			path = MeetUp;
+			sourceTree = "<group>";
+		};
+		B4A9A7E12985D886003D9E9C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B4A9A7E22985D886003D9E9C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B4A9A7E92985F348003D9E9C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B4A9A7EA2985F374003D9E9C /* Theme.swift */,
+				B4A72EC4298605AA00882226 /* DailyScrum.swift */,
+				B40CC398298CB7AF0071336F /* ScrumTimer.swift */,
+				B45BF08E298DCA73001A48DE /* AVPlayer+Djing.swift */,
+				B4183108298DE3B800ED27AB /* History.swift */,
+				B418310A298DECD300ED27AB /* ScrumStore.swift */,
+				B463C9C829989DAD001AFE1D /* SpeechRecognizer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4A9A7D72985D883003D9E9C /* MeetUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A9A7E62985D886003D9E9C /* Build configuration list for PBXNativeTarget "MeetUp" */;
+			buildPhases = (
+				B4A9A7D42985D883003D9E9C /* Sources */,
+				B4A9A7D52985D883003D9E9C /* Frameworks */,
+				B4A9A7D62985D883003D9E9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetUp;
+			productName = MeetUp;
+			productReference = B4A9A7D82985D883003D9E9C /* MeetUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4A9A7D02985D882003D9E9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B4A9A7D72985D883003D9E9C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = B4A9A7D32985D882003D9E9C /* Build configuration list for PBXProject "MeetUp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4A9A7CF2985D882003D9E9C;
+			productRefGroup = B4A9A7D92985D883003D9E9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4A9A7D72985D883003D9E9C /* MeetUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4A9A7D62985D883003D9E9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4183107298DCFBF00ED27AB /* ding.wav in Resources */,
+				B4A9A7E32985D886003D9E9C /* Preview Assets.xcassets in Resources */,
+				B4A9A7E02985D886003D9E9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4A9A7D42985D883003D9E9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B418310B298DECD300ED27AB /* ScrumStore.swift in Sources */,
+				B484374E2986FB1900F961D4 /* ThemePicker.swift in Sources */,
+				B49351FC2999814F00525F17 /* SwiftUIView.swift in Sources */,
+				B41FDE2A298A1943000B1E64 /* ScrumProgressViewStyle.swift in Sources */,
+				B4A72EC5298605AA00882226 /* DailyScrum.swift in Sources */,
+				B477CB10298CC69300276F1A /* MeetingFooterView.swift in Sources */,
+				B463C9C929989DAD001AFE1D /* SpeechRecognizer.swift in Sources */,
+				B4A72ECD29862ACB00882226 /* DetailView.swift in Sources */,
+				B463C9CB2998A28D001AFE1D /* HistoryView.swift in Sources */,
+				B4235EE32995F98800014336 /* MeetingTimerView.swift in Sources */,
+				B4A72ECF29863FC200882226 /* DetailEditView.swift in Sources */,
+				B4A72EC929860F2C00882226 /* TrailingIconLabelStyle.swift in Sources */,
+				B4A9A7EB2985F374003D9E9C /* Theme.swift in Sources */,
+				B4A72ECB298612CB00882226 /* ScrumsView.swift in Sources */,
+				B4235EE52996003000014336 /* SpeakerArc.swift in Sources */,
+				B4A9A7DE2985D883003D9E9C /* MeetingView.swift in Sources */,
+				B4183109298DE3B800ED27AB /* History.swift in Sources */,
+				B4A9A7DC2985D883003D9E9C /* MeetUpApp.swift in Sources */,
+				B484374C2986F36E00F961D4 /* ThemeView.swift in Sources */,
+				B45BF08F298DCA73001A48DE /* AVPlayer+Djing.swift in Sources */,
+				B4A72EC72986092600882226 /* CardView.swift in Sources */,
+				B40CC399298CB7AF0071336F /* ScrumTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B4A9A7E42985D886003D9E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4A9A7E52985D886003D9E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4A9A7E72985D886003D9E9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeetUp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaqrut.com.MeetUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4A9A7E82985D886003D9E9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MeetUp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yaqrut.com.MeetUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4A9A7D32985D882003D9E9C /* Build configuration list for PBXProject "MeetUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A9A7E42985D886003D9E9C /* Debug */,
+				B4A9A7E52985D886003D9E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A9A7E62985D886003D9E9C /* Build configuration list for PBXNativeTarget "MeetUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4A9A7E72985D886003D9E9C /* Debug */,
+				B4A9A7E82985D886003D9E9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4A9A7D02985D882003D9E9C /* Project object */;
+}
